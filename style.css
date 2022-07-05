@@ -1,0 +1,17 @@
+body {
+    font-family: "poppins", sans-serif;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.background-image {
+    background-image: url(images/donation9.jpg);
+}
