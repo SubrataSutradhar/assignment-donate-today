@@ -5,8 +5,18 @@ body {
 
 h1 {
     font-size: 50px;
-    color: white;
+    color: salmon;
     font-weight: 700px;
+
+}
+
+h3 {
+    margin: 70px;
+    font-weight: 900px;
+
+
+
+
 
 }
 
@@ -42,7 +52,7 @@ section {
 
 p {
     text-align: center;
-    margin: 70px;
+    margin: 50px;
 
 }
 
@@ -53,4 +63,26 @@ p {
     border-radius: 10px;
     font-weight: 700;
     background-image: linear-gradient(royalblue, tomato);
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+    width: fit-content;
+
+}
+
+#food {
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+}
+
+#Shelter {
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+}
+
+#Education {
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
 }
