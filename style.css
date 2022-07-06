@@ -1,18 +1,21 @@
 body {
     font-family: "poppins", sans-serif;
+    margin: 10px, 20px;
+    padding: 10px, 10px;
 }
 
 
 h1 {
     font-size: 50px;
-    color: salmon;
+    color: rgb(193, 45, 28);
     font-weight: 700px;
 
 }
 
 h3 {
     margin: 70px;
-    font-weight: 900px;
+    font-weight: bold;
+    font-size: 40px;
 
 
 
@@ -21,7 +24,7 @@ h3 {
 }
 
 .orange-color {
-    color: darkturquoise;
+    color: rgb(38, 209, 0);
 }
 
 .background-image {
@@ -37,6 +40,7 @@ h3 {
     background-image: linear-gradient(orange, tomato);
     font-weight: 700;
     justify-content: center;
+
 }
 
 section {
@@ -67,22 +71,35 @@ p {
 
 .flexible-container {
     display: flex;
-    margin-bottom: 150px;
-    width: fit-content;
-
+    margin-bottom: 100px;
+    width: fit-content
 }
 
 #food {
     background-image: url(icons/food.png);
     background-repeat: no-repeat;
+    background-color: rgb(193, 226, 237);
 }
 
 #Shelter {
     background-image: url(icons/shelter.png);
     background-repeat: no-repeat;
+    background-color: rgb(212, 193, 212);
 }
 
 #Education {
     background-image: url(icons/Frame-1.png);
     background-repeat: no-repeat;
+    background-color: rgb(249, 243, 238);
+}
+
+
+.contribute {
+    width: 70%;
+    display: flex;
+    padding: 10px, 40px;
+}
+
+.contribute img {
+    width: 250%;
 }
